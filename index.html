@@ -3,136 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Layout</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tablets.css">
+    <title>EveryForm</title>
+
 </head>
 <body>
+
     <header>
-        <div class="logo">
-            <img src="logo-placeholder.png" alt="Logo">
-            EveryForm
-        </div>
-        <div class="search">
-            <input type="text" placeholder="Search...">
-        </div>
-        <button class="create-button">Create new form</button>
-        <div class="profile-icon">
-            <span>John Doe</span>
-            <img src="profile-placeholder.png" alt="Profile">
-        </div>
+        <img src="logo.png" alt="EasyForm Logo">
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+        </nav>
     </header>
-
-    <div class="main-container">
-        <div class="grid">
-            <!-- Card 1 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>How to write content about your photographs</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>How to choose the right colors when creating a website?</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Start a blog to reach your creative peak</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>How to design your site footer like we did</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Why choose a theme that looks good with WooCommerce?</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Caring is the new marketing</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 7 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Helping a local business reinvent itself</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 8 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>How does writing influence your personal brand?</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 9 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Lessons and insights from 8 years of Pixelgrade</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 10 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Where to grow your business as a photographer: site or social media?</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 11 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>Starting your traveling blog with Vasco</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
-            </div>
-            <!-- Card 12 -->
-            <div class="card">
-                <div class="card-content">
-                    <h3>How a visual artist redefines success</h3>
-                    <p>14/09/2023 - 4:30 PM | 3 answers</p>
-                </div>
+    
+    <section class="hero">
+        <h1>Welcome to EasyForm</h1>
+        <p>Here you can share your own or get to know other peoples stroies and answer or find answer to questions.</p>
+        <a href="landing.html"><button>Click to proceed</button></a>
+    </section>
+    
+    <section class="features" id="features">
+        <div class="feature">
+            <h3>Easy to use and effective.</h3>
+            <p>EveryForm is designed with an intuitive interface that is easy to understand, enabling users to utilize it effortlessly from their first interaction. The functionalities of the form are streamlined and optimized to perfectly align with your needs.</p>
+            <div class="image-placeholder">Image Placeholder</div>
+        </div>
+        <div class="feature">
+            <h3>Customize Your Way</h3>
+            <p>Unlock the Power of Flexibility with EveryForm: Creating Beautiful and User-Friendly Forms Tailored to Your Needs</p>
+            <div class="feature-icons">
+                <span>Video Background</span>
+                <span>Theme</span>
+                <span>Typo style</span>
+                <span>Unsplash Image</span>
+                <span>Import câu hỏi</span>
+                <span>Chart phân tích dữ liệu</span>
             </div>
         </div>
-    </div>
-
+        <div class="feature">
+            <h3>Innovation and Growth Always</h3>
+            <p>Discover the ever-evolving EveryForm, consistently updated with innovative features for an outstanding user experience.</p>
+            <div class="image-placeholder">Image Placeholder</div>
+        </div>
+    </section>
+    
+    <section class="pricing" id="pricing">
+        <h2>Support us</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>Supporter</h3>
+                <p>$5 / month</p>
+                <p>Advanced features</p>
+                <button>Choose Plan</button>
+            </div>
+            <div class="plan">
+                <h3>Standard</h3>
+                <p>$10 / month</p>
+                <p>Most popular</p>
+                <button>Choose Plan</button>
+            </div>
+            <div class="plan">
+                <h3>Pro</h3>
+                <p>$20 / month</p>
+                <p>Full experience</p>
+                <button>Choose Plan</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h2>Thank You! For supporting MT Studios</h2>
+        <div class="testimonial">
+            <p>"Supporting us will help in development of out project bringing in new features making a satisfactory experience for you"</p>
+            <p>- MT Studios owner</p>
+        </div>
+    </section>
+    
+    <section class="faq" id="faq">
+        <h2>FAQ</h2>
+        <ul>
+            <li>How do I get started? <p>Sign up for free to begin creating forms immediately.</p></li>
+            <li>Are templates customizable? <p>Yes, all templates are fully customizable.</p></li>
+        </ul>
+    </section>
+    
     <footer>
-        <div class="links">
-            <span>Copyright © Bonguyen</span>
-            <a href="#">Privacy Policy</a>
-            <a href="#">About us</a>
-            <a href="#">Terms and Use</a>
-            <a href="#">Policy</a>
-            <a href="#">Site map</a>
-        </div>
-        <div class="social-icons">
-            <a href="#" class="facebook" title="Facebook">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 16 16" fill="white">
-                    <path d="M9.6 2.8H11.2V0.88C10.88 0.88 10.08 0.8 9.12 0.8C7.6 0.8 6.56 1.76 6.56 3.36V5.6H4.8V8H6.56V15.2H9.6V8H11.44L11.84 5.6H9.6V3.68C9.6 3.2 9.76 2.8 9.6 2.8Z"/>
-                </svg>
-            </a>
-            <a href="#" class="youtube" title="YouTube">
-                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 16 16" fill="white">
-                    <path d="M6.4 10.8L10.4 8L6.4 5.2V10.8ZM16 8C16 7.36 16 6.72 15.92 6.08C15.84 5.36 15.68 4.72 15.36 4.16C14.88 3.44 14.08 3.04 13.2 2.88C12.08 2.64 9.92 2.56 8 2.56C6.08 2.56 3.92 2.64 2.8 2.88C1.92 3.04 1.12 3.44 0.64 4.16C0.32 4.72 0.16 5.36 0.08 6.08C0 6.72 0 7.36 0 8C0 8.64 0 9.28 0.08 9.92C0.16 10.64 0.32 11.28 0.64 11.84C1.12 12.56 1.92 12.96 2.8 13.12C3.92 13.36 6.08 13.44 8 13.44C9.92 13.44 12.08 13.36 13.2 13.12C14.08 12.96 14.88 12.56 15.36 11.84C15.68 11.28 15.84 10.64 15.92 9.92C16 9.28 16 8.64 16 8Z"/>
-                </svg>
-            </a>
-        </div>
+        <p>Are you ready to streamline your form creation?</p>
+        <a href="#">Sign up for free today</a>
     </footer>
 </body>
 </html>

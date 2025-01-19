@@ -1,0 +1,14 @@
+.heart {
+    color: #6653d9;
+    background-image: url("../img/icon-heart-dark.svg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+   }
+   
+   
+   .added {
+    background-image: url("../img/icon-heart-dark-added.svg");
+    background-repeat: no-repeat;
+   }
+
+   

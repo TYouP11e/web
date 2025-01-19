@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <section class="hero">
+        <img src="https://via.placeholder.com/800x300" alt="Mountain View">
+        <h1>Mountain Camping Survey</h1>
+    </section>
+    
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">What's your name?</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Your Email?</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+    
+            <div class="form-group">
+                <label for="frequency">How often do you go mountain camping?</label>
+                <select id="frequency" name="frequency">
+                    <option value="rarely">Rarely</option>
+                    <option value="sometimes">Sometimes</option>
+                    <option value="often">Often</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label>What type of camping equipment do you usually bring?</label>
+                <div class="form-options">
+                    <div class="form-option">
+                        <img src="https://via.placeholder.com/150" alt="Tent">
+                        <p>Tent</p>
+                    </div>
+                    <div class="form-option">
+                        <img src="https://via.placeholder.com/150" alt="Sleeping Bag">
+                        <p>Sleeping Bag</p>
+                    </div>
+                    <div class="form-option">
+                        <img src="https://via.placeholder.com/150" alt="Cooking Gear">
+                        <p>Cooking Gear</p>
+                    </div>
+                    <div class="form-option">
+                        <img src="https://via.placeholder.com/150" alt="Other">
+                        <p>Other</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="comment_list">
+                <li>Great!</li>
+            </ul>
+    
+            <div class="form-group">
+                <label for="suggestions">Do you have any suggestions for us?</label>
+                <textarea id="suggestions" name="suggestions" rows="4" placeholder="Share your thoughts..."></textarea>    
+        </div>
+
+        <div class="form-footer">
+            <button class="submit" type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+    <script src="js/comments.js"></script>
+</body>
+</html>
